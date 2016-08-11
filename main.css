@@ -16,8 +16,8 @@
 }
 
 .photo {
-  width: 260px;
-  height: 320px;
+  width: 562px;
+  height: 388px;
   position: absolute;
   /* box-shadow: 0 0 1px rgba(0, 0, 0, .5); */
 }
@@ -67,42 +67,15 @@
   transform: rotateY(180deg);
 }
 
-.photo_up .photo-wrap {
-  transform: rotateZ(0deg);
-}
-
-.photo_down .photo-wrap {
-  transform: rotateZ(180deg);
-}
-
-
-.photo .side .page {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
 /*将元素居中*/
 .photo_center {
   left: 50%;
   right: 50%;
-  margin: 160px 0 0 -130px;
+  margin: 110px 0 0 -256px;
 }
 
-/*正面样式*/
-.front {
-  width: 240px;
-  height: 320px;
-  background-color: #2196F3;
-}
-
-/*反面样式*/
-.back {
-  width: 240px;
-  height: 320px;
-  background-color: #7C4DFF;
+.photo .side .img img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
